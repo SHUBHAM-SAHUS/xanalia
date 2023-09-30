@@ -1,0 +1,103 @@
+
+    .channel-detail-body{
+        height: calc(100vh - 100px);
+        overflow: auto;
+    }
+
+    .img-class {
+        background-image: url(https://angelium-media.s3.ap-southeast-1.amazonaws.com/image_1590061483451_1.jpg);
+        height: 180px; 
+        margin-bottom: 60px; 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .profile-pic {
+        position: relative;
+        top: 90px !important;
+        // margin-top: 90px!important;
+    }
+    .img-container {
+        width: 130px;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .profile-picture{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .name-color {
+        color: #000!important;
+        font-size: 22px!important;
+        font-weight: 700!important;
+        position: relative;
+        min-height: 25px;
+    }
+    .username-color {
+        color: rgba(58,64,73,.811765);
+        font-weight: 500;
+    }
+    .float-right {
+        float: right;
+    }
+    .note-section {
+        margin: 15px;
+    }
+     .noFound-text {
+        color: #b2b2b2;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    // Notes card
+    .note-box {
+        border: 1px solid #dee2e6;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .note-message {
+        padding-bottom: 10px;
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .gray-text {
+        color: #b2b2b2;
+    }
+
+    .sender-name {
+        padding-left: 10px;
+    }
+
+    // Action setting ui 
+    .tag-selection {
+        width: 100%;
+        border: 1px solid #ced4da;
+        height: 300px;
+    }
+    .main-folder-section {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-right: 1px solid #ced4da;
+        width: calc(100% - (100% - 350px))
+    }
+    .list-section{
+        padding: 0 10px;
+        width: 100%;
+        overflow: auto;
+    }
+    .tag-text {
+        color: #d1d1ff;
+    }
+    .align-tag-label{
+        text-align: left;
+        align-self: center;
+        margin-bottom: 0;
+    }

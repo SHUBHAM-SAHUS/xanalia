@@ -1,0 +1,221 @@
+.thumbnail-preview{
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #ced4da;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.img-preview{
+    width: '360px';
+     height: '186px';
+      object-fit: 'cover';
+}
+
+.modal-base {
+    top: 5%;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+  }
+  
+  .modal-base_after-open {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .modal-base_before-close {
+    transform: scale(.2);
+    opacity: 0;
+  }
+  
+  .overlay-base {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(66, 66, 66, .5);
+    opacity: 0;
+      transition: all 0.3s ease-out;
+  }
+  
+  .overlay-base_after-open {
+    opacity: 1;
+  }
+  
+  .overlay-base_before-close {
+    opacity: 0;
+  }
+  .Croper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 230px;
+  }
+  .crop-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    height: 'auto';
+     width: '600px';
+     object-fit: 'cover';
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider {
+    padding: 22px 0px;
+  }
+  .croped-popup{
+    .modal-body{
+      height: 250px;
+    }
+  }
+.blindBoxTabUI{
+  .header{
+    .header-title{
+      font-family: Arial;
+      font-size: 26px;
+      line-height: 30px;
+      font-weight: 600;
+      color: #263844;
+    }
+  }
+  .breadcrumb{
+    margin-bottom: 30px;
+    .breadcrumb-item {
+      a{
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 14px;
+        color: #71767D;
+      }
+    }
+  }
+  .nav{
+    li{
+      .nav-link{
+        padding-bottom: 6px;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        color: #3F4674;
+      }
+    }
+  }
+  .card{
+    .card-body{
+      padding: 15px 20px;
+    }
+    label{
+      font-family: Arial;
+      font-size: 15px;
+      line-height: 18px;
+      margin-bottom: 14px;
+    }
+    .form-group{
+      @media (min-width:767px) {          
+        margin-bottom: 0;
+      }
+    }
+    &.desTxtBox{
+      .card-header{  
+        padding-top: 6px;
+        padding-bottom: 0;
+        label{
+          margin-bottom: 18px;
+          color: #3F4674;
+        }
+        h6{
+          font-family: Arial;
+          font-size: 12px;
+          line-height: 14px;
+          margin-bottom: 0;
+          color: #787E86;
+        }
+      }
+      .card-body{
+        padding-top: 9px;
+        padding-bottom: 30px;
+        .ql-container.ql-snow{
+          border: 1px solid #CED4DA;
+          border-top: none ;
+        }
+        .ql-toolbar.ql-snow{
+          border: 1px solid #CED4DA;
+        }
+      }
+    }
+  }
+}
+.nft_rarity{
+  select.form-select {
+    width: 100%;
+    height: 32px;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    color: #495057;
+  }
+}
+h5.nft_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3f4674;
+  line-height: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+}
+.filter_nft{
+  padding-bottom: 100px;
+}
+.nft-details_btn {
+  float: right;
+  padding-top: 50px;
+}
+.add_new{
+  button {
+    position: absolute;
+    float: right;
+    padding: 8px 30px;
+    right: 72px;
+    cursor: pointer;
+  }
+}
+svg.edit_action {
+  width: 24px;
+  padding-right: 5px;
+}
+button.close {
+  opacity: 1;
+  &:focus{
+    outline: none;
+  }
+}

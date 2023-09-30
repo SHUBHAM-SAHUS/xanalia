@@ -1,0 +1,46 @@
+.btn-d-username {
+    height: 40px;
+    width: 190px;
+}
+
+.close-box-btn {
+    float: right;
+    margin: 5px;
+}
+
+.sub-text-color {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.card-box-border {
+    border: 1px solid #ccc;
+}
+
+.text-area-header-box {
+    padding: 0.75rem 0rem;
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.text-area-header-text {
+    align-items: center;
+}
+.text-area-main {
+    padding: 10px 10px;
+}
+
+.nav-border {
+    border-bottom: none !important;
+}
+.sidebar-scroll {
+    height: 100vh;
+    overflow: auto;
+  }
+
+  .btn-style{
+      display: flex;
+      justify-content: center;
+      padding: 50px 0;
+      margin-right: 15px;
+  }
